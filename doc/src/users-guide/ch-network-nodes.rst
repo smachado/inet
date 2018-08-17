@@ -120,6 +120,11 @@ components to talk directly to each other, i.e. not only to ones in
 neighboring layers.
 
 .. _ug:sec:nodes:customizing-nodes:
+TODO standalone modules like Ipv4RoutingTable: other modules find them
+by name, see “routingTableModule” parameter
+
+TODO examples: direct connection between protocols, layered, star
+topology
 
 Customizing Nodes
 -----------------
