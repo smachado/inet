@@ -220,6 +220,7 @@ XML config file. An example ``traffic.xml`` file:
            </paths>
        </session>
    </sessions>
+
 TODO Figure out what stuff means. What is tunnel\_id, what is lspid?
 (which one is the label?) which interface of host3 is used as endpoint?
 
@@ -289,8 +290,9 @@ An example ``fectable.xml`` file:
        </fecentry>
    </fectable>
 
-.. _ug:sec:mpls:mpls-enabled-router-models:
 TODO figure out what is id, tunnel\_id, lspid!
+
+.. _ug:sec:mpls:mpls-enabled-router-models:
 
 MPLS-Enabled Router Models
 --------------------------

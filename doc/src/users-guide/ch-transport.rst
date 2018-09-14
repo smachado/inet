@@ -290,10 +290,11 @@ INET provides the following modules:
 -  :ned:`Rtp` implements the RTP protocol
 
 -  :ned:`Rtcp` implements the RTCP protocol
+
 TODO some details (how to use, etc.)
 
-//////////// TCP PROTOCOL DESCRIPTION /////////////////
--------------------------------------------------------
+TODO //////////// TCP PROTOCOL DESCRIPTION /////////////////
+
 
 Topics
 ~~~~~~

@@ -364,6 +364,7 @@ When :par:`destAddresses` parameter is empty, the module receives
 packets and makes statistics only.
 
 .. _ug:sec:apps:ipv4/ipv6-traffic-generators:
+
 SCTP applications
 -----------------
 

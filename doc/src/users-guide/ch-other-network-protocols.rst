@@ -76,14 +76,13 @@ simulation.  [1]_
 In apps, you need to specify which network layer protocol you want to
 use. For example:
 
-
-
 .. code-block:: ini
 
    **.app[*].networkProtocol = "flood"
 
-.. _ug:sec:networkprotocols:protocols:
 TODO all apps support that?
+
+.. _ug:sec:networkprotocols:protocols:
 
 Protocols
 ---------
@@ -192,8 +191,7 @@ Address Resolution
 Address resolution is done by :ned:`GlobalArp`. If the address type is
 IPv4, :ned:`Arp` can be used instead of :ned:`GlobalArp`.
 
-/////////////////////////////////////////////////////////
----------------------------------------------------------
+TODO /////////////////////////////////////////////////////////
 
 InternetCloud
 -------------

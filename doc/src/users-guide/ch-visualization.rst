@@ -184,7 +184,8 @@ visualization. This selection can be narrowed with the visualizer’s
 :par:`packetFilter`, :par:`interfaceFilter`, and :par:`nodeFilter`
 parameters.
 
-.. _ug:sec:visualization:routing-tables:
+.. _ug:sec:visualization:transmission-medium:
+
 Visualizing the Transmission Medium
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -210,6 +211,8 @@ The recent successful receptions are displayed as straight lines between
 the original positions of the transmission and the reception. The recent
 obstacle intersections are also displayed as straight lines from the
 start of the intersection to the end of it.
+
+.. _ug:sec:visualization:routing-tables:
 
 Visualizing Routing Tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

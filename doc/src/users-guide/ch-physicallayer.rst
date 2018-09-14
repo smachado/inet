@@ -31,7 +31,6 @@ model allows asymmetric configurations. The energy consumer model is
 optional, and it is only used when the simulation of energy consumption
 is necessary.
 
-.. _ug:sec:phy:generic-radio:
 TODO multiple implementations are provided for each model. For different
 level of detail (abstract/fast versus detailed), different modeling
 strategy, etc.
@@ -40,6 +39,8 @@ TODO explain scalar, dimensional, and “layered”
 
 TODO different signal representations for models of different detail
 levels, etc.
+
+.. _ug:sec:phy:generic-radio:
 
 Generic Radio
 -------------
@@ -138,7 +139,6 @@ Some of the transmitter types available in INET:
 
 -  :ned:`Ieee80211DimensionalTransmitter`
 
-.. _ug:sec:phy:receiver-models:
 TODO scalar radio parameters: power frquency bandwidth ...
 
 TODO dimensional parameterization:
@@ -147,6 +147,8 @@ ApskDimensionalTransmitter: string dimensions = default(“time”); //
 dimensions of power: time and/or frequency string timeGains = default(“0
 string frequencyGains = default(”0 string interpolationMode
 @enum(“linear”, “sample-hold”) = default(“sample-hold”);
+
+.. _ug:sec:phy:receiver-models:
 
 Receiver Models
 ~~~~~~~~~~~~~~~
@@ -323,10 +325,9 @@ medium model, :ned:`UnitDiskRadioMedium`.
 
 The following ini file fragment shows an example configuration.
 
+TODO wtf about those 0 meters in the next block???
+
 .. code-block:: ini
-TODO wtf about those 0 meters???
-
-
 
    *.radioMediumType = "UnitDiskRadioMedium"
    *.host[*].wlan[*].radioType = "UnitDiskRadio"
@@ -391,7 +392,7 @@ TODO fragment for a layered one!
     **.wlan[*].radio.**.levelOfDetail = ${detail="packet", "bit", "symbol"}
     **.wlan[*].radio.**.modulation = ${modulation="BPSK", "QPSK", "QAM-16", "QAM-64"}
     **.wlan[*].radio.**.fecType = ${fecType="", "ConvolutionalCoder"}
-    **.bitrate = ${bitrate=$fecType == "" ? 36Mbps : 18Mbps} # we want to have the same 36Mbps gross bitrate (applying 1/2 code rate) 
+    **.bitrate = ${bitrate=$fecType == "" ? 36Mbps : 18Mbps} # we want to have the same 36Mbps gross bitrate (applying 1/2 code rate)
 
     ## Transmitter
     **.wlan[*].radio.transmitterType = "ApskLayeredTransmitter"

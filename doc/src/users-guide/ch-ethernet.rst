@@ -127,10 +127,11 @@ There is currently no support for 200Gbps and 400Gbps Ethernet.
 :ned:`Eth10M`, :ned:`Eth100M`, :ned:`Eth1G`, :ned:`Eth10G`,
 :ned:`Eth40G`, :ned:`Eth100G`
 
-.. _ug:sec:ethernet:ethernet-interface:
 TODO concrete channel types?
 
 TODO example
+
+.. _ug:sec:ethernet:ethernet-interface:
 
 Ethernet Interface
 ------------------
